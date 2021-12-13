@@ -1,0 +1,240 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap'); */
+
+*{
+  background-color: #d7d8c3;
+  color: #91b2c7;
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+a:link {
+  color: #91b2c7;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #91b2c7;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8d6298;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+*, *:before, *:after {
+  /* font-family: 'Fuzzy Bubbles';  , cursive; */
+  box-sizing: inherit;
+}
+.navtext{
+	font-family: 'Lora', serif;
+}
+.forest{
+  opacity: 50%;
+  position: relative;
+  top:30px;
+  height: 505px;
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+  border-radius: 10px;
+ /*opacity: 30%;
+  top:100%;
+  width:100%;
+  height: 535px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+  border-radius: 10px;*/
+
+}
+.rain{
+  opacity: 50%;
+  position: relative;
+  top:30px;
+  height: 505px;
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+  border-radius: 10px;
+ /*opacity: 30%;
+  top:100%;
+  height: 535px;
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+  border-radius: 10px;*/
+
+}
+.sunrise{
+  opacity: 50%;
+  position: relative;
+  top:30px;
+  height: 505px;
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+  border-radius: 10px;
+ /* opacity: 50%;
+  top:100%;
+  height: 535px;
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+  border-radius: 10px;*/
+}
+body {
+  background-color: #101010;
+  color: #ffffff;
+  overflow: hidden;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.wsize{
+  font-size: 32px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  position: relative;
+  background-color: transparent;
+  top:-510px;
+  color:#034698;
+  text-align: center;
+}
+.wsize1{
+  font-size: 32px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color:#034698;
+  position: relative;
+  background-color: transparent;
+  top:-510px;
+  text-align: center;
+}
+.wsize2{
+  font-size: 32px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color:#034698;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+  top:-520px;
+}
+.wsizew{
+  font-size: 32px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color:#034698;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #034698;
+  border-radius: 12px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+
+}
+
+.fsize1{
+  font-size: 32px;
+  font-family: 'Roboto Slab', serif;
+  color:#034698;
+  position: relative;
+  background-color: transparent;
+  top:-550px;
+}
+.fsize2{
+  font-size: 32px;
+  font-family: 'Roboto Slab', serif;
+  color:#034698;
+  position: relative;
+  background-color: transparent;
+  top:-550px;
+}
+.fsize{
+  font-size: 32px;
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+  background-color: transparent;
+  top:-550px;
+  color:#034698;
+}
+.fsizef{
+  font-size: 24px;
+  font-family: 'Lora', serif;
+   border-style: solid;
+  border-width: 5px;
+  border-color: #034698;
+  border-radius: 12px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 12px;
+  margin-top:10px;
+  width:300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+
+}
+.fsizef:hover{
+  background-color: #c2c4a4;
+  
+}
+.fsizef:hover > .menu{
+  /*font-size: 24px;
+  font-family: 'Lora', serif;
+   border-style: solid;
+  border-width: 5px;
+  border-color: #ffff;
+  border-radius: 12px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;*/
+  background-color: #c2c4a4;
+}
+
+.conainter{
+  background-color: #d7d8c3;
+}
+.menu{
+  background-color: #d7d8c3;
+}
+.tree{
+  height: 150px;
+  width:180px;
+  position: relative;
+  top:300px;
+  left:900px;
+  opacity: 20%;
+}
+section, aside, div {
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.flex-container {
+  
+    display: flex;  
+}
+
+.main-content {
+  flex: .25;  
+}
+
+.sidebar {
+  flex: 1;
+  /*background-image: url("forest.jpg");*/
+  background-repeat:no-repeat;
+}
+.texthieght{
+  position: relative;
+    top: -400px;
+}
+
+
+
+
+
+
+
